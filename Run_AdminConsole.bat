@@ -1,0 +1,1 @@
+"C:\Program Files\Mozilla Firefox\firefox.exe" 192.168.100.128:80/choose?house=%1

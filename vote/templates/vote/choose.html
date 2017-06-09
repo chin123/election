@@ -1,0 +1,74 @@
+{% load staticfiles %}
+<html>
+    <head>
+        
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}" type="text/css">
+
+    <!--Import Google Icon Font-->
+
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+        <style>
+        	
+			.split_table {
+				position: absolute;
+				width: 30vw;
+				top: 30vh;
+			};
+            
+        </style>        
+        
+    </head>
+<body style="font-family:sans-serif">
+<center>
+	<h2>Administrator Console</h2>
+	<h5>Select the name of the student who is voting right now</h5>
+	<h5><u>Use Ctrl-F to find a name</u></h5>
+</center>
+    
+    <br>
+    
+	<!-- Storing both tables side-by-side -->
+	<div id='names'>
+		<table class="split_table" style="left: 10vw">
+			<th>
+				<h5><u>Remaining Voters</u></h5>
+			</th>
+			
+			<tbody>
+				{% for voter in voters %}
+				<tr>
+					<td>
+						<a class="highlight" href="/set?voter={{ voter }}&house={{ house }}"> 
+							<u>{{ voter }}</u>
+						</a>
+					</td>
+				</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+		
+		<table class="split_table" style="left: 60vw">
+			<th>
+				<h5><u>Completed Voters</u></h5>
+			</th>
+			
+			<tbody>
+				{% for completed_voter in completed_voters %}				
+					<tr>
+						<td>
+							<strike>{{ completed_voter }}</strike>
+						</td>
+					</tr>				
+				{% endfor %}
+			<tbody>
+		</table>
+	</div>
+
+</body>
+</html>
