@@ -34,6 +34,6 @@ GPL V3
 ![GPL V3 Logo](gplv3.png)  
 
 # Contributors  
-Chinmaya M
-Rahul B
-Nikhil I
+Chinmaya M  
+Rahul B  
+Nikhil I  
