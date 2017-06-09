@@ -31,7 +31,7 @@ Load from savefile|`/loadsave`
 
 # License
 GPL V3
-[GPL V3 Logo](gplv3.png)  
+![GPL V3 Logo](gplv3.png)  
 
 # Contributors  
 Chinmaya M
