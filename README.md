@@ -30,7 +30,7 @@ Voting Page       |`/vote?house=<house name>`
 Load from savefile|`/loadsave`
 
 # License
-GPL V3
+GPL V3  
 ![GPL V3 Logo](gplv3.png)  
 
 # Contributors  
