@@ -13,7 +13,7 @@ If the house name is left blank, the name will be added to all the houses.
 
 # Adding Names of Nominees  
 1. Store the images of all the nominees in the root directory of the code.  
-2. Navigate to <ip address>:<port>/settings in your web browser. 
+2. Navigate to `<ip address>:<port>/settings` in your web browser. 
 3. In the image path, just type in the file name of the image.  
 
 # Features
