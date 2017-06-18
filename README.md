@@ -1,4 +1,6 @@
 # Election
+[![Build Status](https://travis-ci.org/chin123/election.svg?branch=master)](https://travis-ci.org/chin123/election)  
+
 # Requirements
 1. Python 2.7.6.1 or above
 2. Django 1.6.2 or above
